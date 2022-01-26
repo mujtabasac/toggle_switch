@@ -301,7 +301,7 @@ class _ToggleSwitchState extends State<ToggleSwitch>
                     : TextStyle(
                         color: fgColor,
                         fontSize: widget.fontSize,
-                      );
+                        fontWeight: FontWeight.bold);
 
                 /// Returns switch item
                 return GestureDetector(
